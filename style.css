@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.BtnMenu button{
+    margin-top: 5px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3B509C;
+}
+
+#BodyProj{
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Fotinha mari/Mari_Palhaça.jpg');
+    background-size: 100% ;
+}
+
+#BodyMenu{
+    background-image: url("Fotinha mari/Mari_balão.jpg");
+    background-size: 100%;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(116, 137, 255);
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 30px;
+    color: #3B509C;
+}
+
+.Menu{
+    text-align: center;
+}
+
+
+.Ma{
+    width: 275px;
+    height: 220px;
+    text-align: center;
+}
+
+.Volt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 15px;
+    padding: 7px;
+    border-color: none;
+    background-color: #3B509C;
+    border-radius: 10px;
+    color: black;
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Card{
+    width: 150px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    box-shadow: 0  0 20px rgba(93, 93, 93, alpha0.2);
+    color: #F0B30C;
+    text-align: center;
+    background-color: #213066;
+}
+
+
+.Card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.Card h2{
+    font-size: 25px;
+}
+
+.Card p{
+    font-size: 15px;
+}
+
+.Card button{
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    font-size: 20;
+    border: none;
+    background-color: #3B509C;
+    border-radius: 20px;
+}
+
+#Final {
+    font-size: 10px;
+}
+
+.MenuSobre{
+    text-align: center;
+}
+
+.MenuSobre h1{
+    font-size: 70px;
+    color: #ffc0cb;
+}
+
+.MenuSobre p{
+    font-size: 40px;
+    color: rgb(97, 97, 210);
+}
+
+.Gostos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.Gostos img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#SobreBody{
+    background-image: url("Fotinha mari/Mari_niver.PNG");
+}
